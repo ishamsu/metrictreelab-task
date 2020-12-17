@@ -59,7 +59,9 @@ CREATE TABLE data (
 ##### Create admin / insert  user as admin into user_table :-
 login with-
  * *username*: **admin**
- * *passowrd**: **1234567**
+ * *passowrd*: **1234567**
+ 
+ *After logged in you can change the username,password if needed.*
 
 ```
 INSERT INTO user_table (username,password,isadmin,date_created)
