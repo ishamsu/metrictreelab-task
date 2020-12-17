@@ -27,7 +27,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 #### add .env inside the directory `/api` :-
 
-```DB_USER=""
+```
+DB_USER=""
 DATABASE_PASSWORD=""
 DB_HOST=localhost
 PORT=8000
@@ -37,7 +38,8 @@ SECRET=""
 ```
 #### SQL Query  for creating table :-
 
-```CREATE TABLE user_table (
+```
+CREATE TABLE user_table (
   uid SERIAL PRIMARY KEY,
   username VARCHAR(30) UNIQUE NOT NULL,
   password VARCHAR(100) NOT NULL,
