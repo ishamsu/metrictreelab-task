@@ -57,7 +57,7 @@ CREATE TABLE data (
 ```
 
 ##### Create admin / insert  user as admin into user_table :-
-login with-
+login with deafult admin credential-
  * *username*: **admin**
  * *passowrd*: **1234567**
  
