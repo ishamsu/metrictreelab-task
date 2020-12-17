@@ -1,0 +1,96 @@
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.card-container.card {
+    max-width: 390px !important;
+    padding: 10px 40px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 90px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.profile-img-card1 {
+    width: 400px;
+    margin: 0 auto 10px;
+    margin-top: 150px;
+    display: block;
+}
+
+.bg-special {
+    color: black !important;
+    background-color: white;
+}
+
+.red {
+    color: red !important;
+}
+
+.white {
+    color: rgba(0, 0, 0, 0.295) !important;
+    font-weight: 700;
+}
+
+.boldlight {
+    font-weight: 700;
+    color: rgba(88, 88, 88, 0.527)
+}
+
+.boldlightcenter {
+    font-size: smaller;
+    text-align: center;
+    font-weight: bold;
+    color: slategrey;
+}
+
+.btn-grad {
+    color: white;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%)
+}
+
+.btn-grad:hover {
+    color: white;
+    background-image: linear-gradient(to right, #4776E6 30%, #8E54E9 100%, #4776E6 50%)
+}
+
+.list {
+    text-align: left;
+    max-width: 750px;
+    margin: auto;
+}
+
+.submit-form {
+    max-width: 300px;
+    margin: auto;
+}
+
+.edit-form {
+    max-width: 300px;
+    margin: auto;
+}
+
+.updatesuccess {
+    text-align: center !important;
+    font-size: x-large;
+}
