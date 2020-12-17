@@ -236,7 +236,7 @@ export default class home extends Component {
             >
               search
             </button>
-            <small  className="form-text text-danger text-center"><i>* Search data by title (Refresh nd try) </i></small>
+            <small  className="form-text text-danger text-center"><i>* Search data by filename (Refresh nd try) </i></small>
 
 <div className="card-header">
   Welcome user
@@ -245,7 +245,7 @@ export default class home extends Component {
   <h5 className="card-title"> 
 Add data</h5>
 <form>
-<span>Name of the Title : </span>
+<span>Name of the file : </span>
               <input
                 type="text"
                 value={this.state.title}
@@ -292,7 +292,7 @@ Add data</h5>
             >
               search
             </button>
-            <small  className="form-text text-danger text-center"><i>* Search data by title (Refresh nd try) </i></small>
+            <small  className="form-text text-danger text-center"><i>* Search data by filename (Refresh nd try) </i></small>
                 <div className="card-header">
                   Welcome admin
                 </div>
