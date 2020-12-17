@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 * Express
 * PostgreSQL
 
-##### add .env inside the directory `/api` :-
+#### add .env inside the directory `/api` :-
 
 ```DB_USER=""
 DATABASE_PASSWORD=""
@@ -35,7 +35,7 @@ DB_PORT=5432
 DB_DATABASE=""
 SECRET=""
 ```
-##### SQL Query  for creating table :-
+#### SQL Query  for creating table :-
 
 ```CREATE TABLE user_table (
   uid SERIAL PRIMARY KEY,
@@ -56,7 +56,7 @@ CREATE TABLE data (
 
 ```
 
-##### Create admin / insert  user as admin into user_table :-
+#### Create admin / insert  user as admin into user_table :-
 login with deafult admin credential-
  * *username*: **admin**
  * *passowrd*: **1234567**
