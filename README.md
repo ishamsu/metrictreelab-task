@@ -61,7 +61,7 @@ login with deafult admin credential-
  * *username*: **admin**
  * *passowrd*: **1234567**
  
- *After logged in you can change the username,password if needed.*
+ **After logged in you can change the username,password if needed.*
 
 ```
 INSERT INTO user_table (username,password,isadmin,date_created)
